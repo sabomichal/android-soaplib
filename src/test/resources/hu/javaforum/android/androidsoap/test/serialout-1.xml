@@ -1,0 +1,25 @@
+<demoObj>
+  <nonsenseCount>1</nonsenseCount>
+  <someMask>-13570</someMask>
+  <someLong>123456789</someLong>
+  <someReal>2.95</someReal>
+  <someDouble>59.779998779296875</someDouble>
+  <myName>Löwenbräu</myName>
+  <lastModified>2011-01-06T14:08:28</lastModified>
+  <subDetails>
+    <nonsenseCount>1</nonsenseCount>
+    <someMask>6865</someMask>
+    <someLong>123456</someLong>
+    <someReal>3.1428</someReal>
+    <someDouble>7.800000190734863</someDouble>
+    <myName>subdetail-1</myName>
+  </subDetails>
+  <subDetails>
+    <nonsenseCount>2</nonsenseCount>
+    <someMask>6866</someMask>
+    <someLong>123457</someLong>
+    <someReal>4.1428</someReal>
+    <someDouble>8.800000190734863</someDouble>
+    <myName>subdetail-2</myName>
+  </subDetails>
+</demoObj>

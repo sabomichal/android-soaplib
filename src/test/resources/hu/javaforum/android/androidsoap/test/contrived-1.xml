@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ | $Id: contrived-1.xml 175 2012-04-15 16:32:05Z auth.gabor $
+ | $Revision: 175 $
+ | $Author: auth.gabor $
+ | $Date: 2012-04-15 18:32:05 +0200 (ne, 15 4 2012) $
+ | Author: Auth Gábor, Chris Wolf
+ |
+ | Test case for GenericHandler.parseWithPullParser()
+ +-->
+<soapenv:Envelope 
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+          xmlns="urn:partner.soap.sforce.com" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <result>
+      <demoObj>
+        <nonsenseCount>1</nonsenseCount>
+        <someMask>-13570</someMask>
+        <someLong>123456789</someLong>
+        <someReal>2.95</someReal>
+        <someDouble>59.779998779296875</someDouble>
+        <myName>Löwenbräu</myName><!-- utf-8 test -->
+        <lastModified>2011-01-06T14:08:28</lastModified>
+        <subDetail>
+          <nonsenseCount>1</nonsenseCount>
+          <someMask>6865</someMask>
+          <someLong>123456</someLong>
+          <someReal>3.1428</someReal>
+          <someDouble>7.800000190734863</someDouble>
+          <myName>subdetail-1</myName>
+        </subDetail>
+        <subDetail>
+          <nonsenseCount>2</nonsenseCount>
+          <someMask>6866</someMask>
+          <someLong>123457</someLong>
+          <someReal>4.1428</someReal>
+          <someDouble>8.800000190734863</someDouble>
+          <myName>subdetail-2</myName>
+        </subDetail>
+      </demoObj>
+    </result>
+  </soapenv:Body>
+</soapenv:Envelope>
